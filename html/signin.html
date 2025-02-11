@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-in Page</title>
+    <link rel="stylesheet" href="/css/Signin.css">
+</head>
+<body>
+    <form method="POST"><fieldset>
+        <h1>SignUp</h1>
+        <div class="form">
+            <label for="Nickname" name="Nickname">Nickname: <input type="text" maxlength="20" placeholder="Nickname" name="Nickname" required></label>
+            <label for="Firstname" name="firstname">Firstname: <input type="text" name="firstname" placeholder="firstname" required></label>
+            <label for="Lastname" name="Lastname">Lastname: <input type="text" name="lastname" placeholder="lastname" required></label>
+            <label for="Email" name="email">Email: <input type="mail" name="email" placeholder="Email" required></label>
+            <p>Gender: </p>
+                <label for="male"> male <input class="order" type="radio" checked></label>
+                <label for="female">female <input type="radio"></label>
+                <label for="Other">Other <input type="radio"></label>
+
+            <label for="Phone" name="Phone">Phone no: <input type="tel" name="phone" placeholder="Tel:" maxlength="12" required></label>
+            <label for="Password" name="password">Password <input type="password" placeholder="password" name="Password" minlength="8" required></label>
+            <label for="Password" name="Confirm password">Confirm Password <input type="password" placeholder="Confirm Password" name="Confirm password" minlength="8" required></label>
+            <p class="terms"> Do you accept our <a href="#">Terms and conditions</a><input type="checkbox" id="terms" name="terms" required></p>
+           <p>If you have an account <a target="_blank" href="login.html">login here!!</a>
+           </p>
+           
+            <input type="submit" value="SUBMIT">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
